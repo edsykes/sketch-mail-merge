@@ -48,7 +48,7 @@ var parseUserInput = function(string) {
   var values = []
   var rows = string.split('\n')
 
-  var separator = guessDelimiters( string, [",", ";", "\t"] )
+  var separator = guessDelimiters( string, [",,"] )
 
   for (var i=0; i < rows.length; i++) {
     var rowText = rows[i]
