@@ -10,12 +10,12 @@ Prepare a template and add numeric tags to your text, for example "Hello {1}":
 
 ![Template](https://raw.githubusercontent.com/kumo/sketch-mail-merge/master/docs/template.png)
 
-Prepare your data in CSV format, for example:
+Prepare your data in double CSV format, for example:
 
 ```
-cat,miao
-dog,woof
-fox,???
+cat,,miao
+dog,,woof
+fox,,???
 ```
 
 Select the template and then choose the plugin `Mail Merge` from the menu. Paste in the CSV format and you should see something like:
