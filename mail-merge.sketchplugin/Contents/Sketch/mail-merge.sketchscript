@@ -21,7 +21,7 @@ var guessDelimiters = function(text, possibleDelimiters) {
 
     // make sure that we have found a delimiter, otherwise use default
     if (result.length != 1) {
-      return /[\t,]/
+      return /[\t]/
     } else {
       return result
     }
